@@ -8,8 +8,7 @@ namespace ZooApp
 {
     interface IAnimal
     {
-        int Age { get; set; }
-        string Species { get;}
+        
         void RequestUniqueCharacteristic();
         void GetDescription();
     }
